@@ -1,0 +1,180 @@
+.container {
+  padding: 24px;
+  font-family: system-ui, sans-serif;
+  background-color: #0f172a;
+  color: #f8fafc;
+  min-height: 100vh;
+}
+
+.header {
+  margin-bottom: 24px;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 12px;
+}
+
+.headerTitle {
+  font-size: 24px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Сетка индикаторов */
+.indicatorsGrid {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 220px;
+  background-color: #1e293b;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+}
+
+.cardTitleRpm {
+  color: #4ade80;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cardTitleFuel {
+  color: #f43f5e;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cardValue {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.cardUnit {
+  font-size: 16px;
+  color: #94a3b8;
+  font-weight: normal;
+}
+
+/* Блок графиков */
+.chartsBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.chartCard {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+}
+
+.chartTitle {
+  margin: 0 0 16px 0;
+  font-size: 15px;
+  color: #f1f5f9;
+}
+
+.chartWrapperRpm {
+  width: 100%;
+  height: 220px;
+}
+
+.chartWrapperFuel {
+  width: 100%;
+  height: 180px;
+}
+
+/* Блок панелей управления */
+.controlsGrid {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.controlPanel {
+  flex: 1;
+  min-width: 300px;
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+}
+
+.panelTitle {
+  margin: 0 0 16px 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.panelTitlePid {
+  margin: 0 0 16px 0;
+  font-size: 16px;
+  color: #a855f7;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.controlGroup {
+  margin-bottom: 16px;
+}
+
+.controlGroupLast {
+  margin-bottom: 0;
+}
+
+.controlHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.pidControlGroup {
+  margin-bottom: 12px;
+}
+
+.pidControlHeader {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.rangeInput {
+  width: 100%;
+}
+.pidMonitorRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: #0f172a;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.pidMonitorRow:last-child {
+  margin-bottom: 0;
+}
+
+.pidValueBadge {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 14px;
+}
